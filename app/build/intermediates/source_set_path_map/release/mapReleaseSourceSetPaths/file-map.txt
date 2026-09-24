@@ -1,0 +1,8 @@
+com.moodlight.app-pngs-0 /home/seqn/mood-app/app/build/generated/res/pngs/release
+com.moodlight.app-resValues-1 /home/seqn/mood-app/app/build/generated/res/resValues/release
+com.moodlight.app-packageReleaseResources-2 /home/seqn/mood-app/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.moodlight.app-packageReleaseResources-3 /home/seqn/mood-app/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.moodlight.app-merged-not-compiled-resources-4 /home/seqn/mood-app/app/build/intermediates/merged-not-compiled-resources/release
+com.moodlight.app-release-5 /home/seqn/mood-app/app/build/intermediates/merged_res/release/mergeReleaseResources
+com.moodlight.app-main-6 /home/seqn/mood-app/app/src/main/res
+com.moodlight.app-release-7 /home/seqn/mood-app/app/src/release/res

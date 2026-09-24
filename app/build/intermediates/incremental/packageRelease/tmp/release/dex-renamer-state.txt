@@ -1,0 +1,4 @@
+#Thu Sep 24 19:37:59 CST 2026
+base.0=/home/seqn/mood-app/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

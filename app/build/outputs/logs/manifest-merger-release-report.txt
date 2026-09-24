@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:1-445
+INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:1-445
+INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:1-445
+INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:1-445
+	package
+		INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:70-434
+INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:70-434
+	android:extractNativeLibs
+		INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:115-140
+	android:allowBackup
+		ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:141-167
+	android:theme
+		ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:83-114
+activity#com.moodlight.app.MainActivity
+ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:168-420
+	android:screenOrientation
+		ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:207-243
+	android:exported
+		ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:244-267
+	android:name
+		ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:178-206
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:268-409
+action#android.intent.action.MAIN
+ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:283-334
+	android:name
+		ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:291-332
+category#android.intent.category.LAUNCHER
+ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:334-393
+	android:name
+		ADDED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml:1:344-391
+uses-sdk
+INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml
+INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/seqn/mood-app/app/src/main/AndroidManifest.xml

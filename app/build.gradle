@@ -1,0 +1,11 @@
+plugins { id 'com.android.application' }
+
+android { namespace 'com.moodlight.app'; compileSdk 34
+    defaultConfig { applicationId 'com.moodlight.app'; minSdk 26; targetSdk 34; versionCode 8; versionName '1.0' }
+    signingConfigs {
+        // A debug keystore makes the delivered sample APK directly installable.
+        // Replace with a release keystore for store publication.
+        release { storeFile file(System.getProperty('user.home') + '/.android/debug.keystore'); storePassword 'android'; keyAlias 'AndroidDebugKey'; keyPassword 'android' }
+    }
+    buildTypes { release { minifyEnabled true; shrinkResources true; signingConfig signingConfigs.release; proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro' } }
+}

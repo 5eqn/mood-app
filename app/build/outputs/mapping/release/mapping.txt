@@ -1,0 +1,91 @@
+# compiler: R8
+# compiler_version: 8.7.18
+# min_api: 26
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: ff485a2
+# pg_map_hash: SHA-256 ff485a20d94eac24defcadb8af25324326a077af5747cec4d99f592a7d1ef7ec
+com.moodlight.app.EditTextBox -> com.moodlight.app.EditTextBox:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    0:5:void <init>(android.content.Context,java.lang.String):42:42 -> <init>
+    0:4:boolean $r8$lambda$4YvarLOEHJVPijibQ_CRBbO0ayI(com.moodlight.app.EditTextBox,android.widget.TextView,int,android.view.KeyEvent):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void $r8$lambda$N7LZqJWAeIANK2YQwmB8u8uUKtQ(com.moodlight.app.EditTextBox):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:16:boolean lambda$onCreate$0(android.widget.TextView,int,android.view.KeyEvent):42:42 -> lambda$onCreate$0
+    0:25:void lambda$show$1():42:42 -> lambda$show$1
+    0:89:void onCreate(android.os.Bundle):42:42 -> onCreate
+    0:15:void show():42:42 -> show
+com.moodlight.app.EditTextBox$$ExternalSyntheticLambda0 -> com.moodlight.app.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.moodlight.app.EditTextBox com.moodlight.app.EditTextBox$$InternalSyntheticLambda$1$2d04ac1a85d716377db57f277812627be8fec4a45307c510c7e693ae6ab5db93$0.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:5:void <init>(com.moodlight.app.EditTextBox):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:6:boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent):0:0 -> onEditorAction
+      # {"id":"com.android.tools.r8.synthesized"}
+com.moodlight.app.EditTextBox$$ExternalSyntheticLambda1 -> com.moodlight.app.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.moodlight.app.EditTextBox com.moodlight.app.EditTextBox$$InternalSyntheticLambda$1$48818d91e87282b318f29249dc84d8077b20a072c2c7d83f831cf823e69e3317$0.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:5:void <init>(com.moodlight.app.EditTextBox):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:5:void run():0:0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.moodlight.app.Entry -> com.moodlight.app.Entry:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    0:9:void <init>(long,int,java.lang.String):13:13 -> <init>
+com.moodlight.app.MainActivity -> com.moodlight.app.MainActivity:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    0:3:void <init>():5:5 -> <init>
+    0:24:void exportData():8:8 -> exportData
+    0:22:void importData():9:9 -> importData
+    0:86:void onActivityResult(int,int,android.content.Intent):10:10 -> onActivityResult
+    0:28:void onCreate(android.os.Bundle):7:7 -> onCreate
+com.moodlight.app.MoodView -> com.moodlight.app.MoodView:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    0:2:void <init>(com.moodlight.app.MainActivity):18:18 -> <init>
+    3:63:void <init>(com.moodlight.app.MainActivity):16:16 -> <init>
+    64:129:void <init>(com.moodlight.app.MainActivity):17:17 -> <init>
+    130:176:void <init>(com.moodlight.app.MainActivity):18:18 -> <init>
+    0:3:void $r8$lambda$FPF4GNZdu7vbc2V2k3UH0c8K17Q(com.moodlight.app.MoodView,com.moodlight.app.EditTextBox,android.content.DialogInterface):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:79:java.lang.String ago(long):36:36 -> ago
+    0:78:java.lang.String avgText():29:29 -> avgText
+    0:39:void bold(android.graphics.Canvas,java.lang.String,float,float,float,int):19:19 -> bold
+    1:82:void burst():35:35 -> burst
+    0:3:float d(float):19:19 -> d
+    4:182:void drawBurst(android.graphics.Canvas):32:32 -> drawBurst
+    4:389:void drawChart(android.graphics.Canvas):28:28 -> drawChart
+    2:24:void header(android.graphics.Canvas,java.lang.String,java.lang.String):21:21 -> header
+    4:214:void home(android.graphics.Canvas):22:22 -> home
+    215:296:void home(android.graphics.Canvas):23:23 -> home
+    297:371:void home(android.graphics.Canvas):24:24 -> home
+    372:488:void home(android.graphics.Canvas):25:25 -> home
+    0:302:void insights(android.graphics.Canvas):27:27 -> insights
+    0:95:java.lang.String json():37:37 -> json
+    0:7:void lambda$onTouchEvent$0(com.moodlight.app.EditTextBox,android.content.DialogInterface):34:34 -> lambda$onTouchEvent$0
+    0:69:void load(java.lang.String):38:38 -> load
+    0:18:void loadPrefs():39:39 -> loadPrefs
+    0:142:void nav(android.graphics.Canvas):31:31 -> nav
+    0:47:void onDraw(android.graphics.Canvas):20:20 -> onDraw
+    0:295:boolean onTouchEvent(android.view.MotionEvent):34:34 -> onTouchEvent
+    3:50:void round(android.graphics.Canvas,float,float,float,float,int,float):33:33 -> round
+    0:24:void savePrefs():39:39 -> savePrefs
+    4:34:int scoreColor(int):33:33 -> scoreColor
+    0:155:void settings(android.graphics.Canvas):30:30 -> settings
+    0:20:java.lang.String time(long):36:36 -> time
+    0:46:void txt(android.graphics.Canvas,java.lang.String,float,float,float,int):19:19 -> txt
+com.moodlight.app.MoodView$$ExternalSyntheticLambda0 -> com.moodlight.app.c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.moodlight.app.MoodView com.moodlight.app.MoodView$$InternalSyntheticLambda$1$b8379d0d2c390adc8ffa06d125e3d17fda805429e6ec8ea1dce9b72fada8b511$0.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.moodlight.app.EditTextBox com.moodlight.app.MoodView$$InternalSyntheticLambda$1$b8379d0d2c390adc8ffa06d125e3d17fda805429e6ec8ea1dce9b72fada8b511$0.f$1 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:7:void <init>(com.moodlight.app.MoodView,com.moodlight.app.EditTextBox):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:7:void onDismiss(android.content.DialogInterface):0:0 -> onDismiss
+      # {"id":"com.android.tools.r8.synthesized"}

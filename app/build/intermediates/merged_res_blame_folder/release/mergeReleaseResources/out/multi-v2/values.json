@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.moodlight.app-mergeReleaseResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/seqn/mood-app/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "0",
+                        "startColumns": "11",
+                        "startOffsets": "11",
+                        "endColumns": "346",
+                        "endOffsets": "346"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "339",
+                        "endOffsets": "390"
+                    }
+                }
+            ]
+        }
+    ]
+}
