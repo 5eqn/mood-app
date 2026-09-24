@@ -1,1 +1,0 @@
--keep class com.moodlight.app.MainActivity { <init>(); }

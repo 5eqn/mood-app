@@ -1,7 +1,0 @@
-@style/AppTheme : reachable=true
-
-The root reachable resources are:
- style:AppTheme:2130771968
-Unused resources are: 
-
-Resource shrinking did not work (grew from 980 to 1020); using original instead
