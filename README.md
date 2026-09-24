@@ -1,6 +1,6 @@
 # Moodlight
 
-原生 Android 心情记录应用，Android 8.0+。版本 1.1 / versionCode 9。
+原生 Android 心情记录应用，Android 8.0+。版本 1.1.1 / versionCode 10。
 
 ## 使用
 
@@ -35,3 +35,5 @@ ANDROID_HOME=/home/seqn/Android/Sdk /home/seqn/gradle-8.9/bin/gradle assembleRel
 - AndroidRuntime 日志无崩溃。尚未进行实体设备 GPU 性能基准测试。
 
 验证数据只存在模拟器，APK 不内置测试记录。verification 下保留截图与录屏供审阅。
+
+图标：原生矢量自适应前景/背景，另含 Android 13+ 单色主题图标。设计为墨绿底、柔光微笑球、轨道与星光；桌面截图见 verification/launcher-icon.png。
