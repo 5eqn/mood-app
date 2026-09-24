@@ -1,1 +1,1 @@
--keep class com.moodlight.app.** { *; }
+# Android component entry points are retained by generated rules.
