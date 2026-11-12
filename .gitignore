@@ -6,4 +6,4 @@ local.properties
 .idea/
 *.apk
 
-verification/*.mp4
+verification/
